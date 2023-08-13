@@ -1,0 +1,252 @@
+.gradient-background {
+  background: linear-gradient(315deg, #ffffff, #1eff00, #efb0ff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+body{
+  margin: 0px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.text{
+  display: block;
+  justify-content: center;
+  padding: 100px;
+}
+
+.dog-title{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 50px;
+}
+
+.iphone{
+  justify-content: center;
+  padding-top: 5%;
+  margin-right: 200px;
+}
+
+.btn{
+  display: flex;
+  gap: 15px;
+}
+
+.btn.btn-light{
+  background-color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: larger;
+}
+
+.btn.btn-outline-light {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;  
+  font-size: larger;
+}
+
+#features{
+  padding: 100px;
+
+}
+
+.features{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.e{
+  display: inline-flex;
+}
+
+.logo{
+  padding: 25px;
+}
+
+.features h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+.features p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.t{
+  display: block;
+}
+
+.t1{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.dog-img{
+  border-radius: 50%;
+}
+
+#testimonial{
+  padding-top: 50px;
+  background-color: rgb(235, 239, 241);
+  padding-bottom: 50px;
+}
+
+.img{
+  padding-top: 25px;
+  display: flex;
+  gap: 150px;
+  height: 30px;
+  justify-content: center;
+}
+
+#pricing{
+  margin-bottom: 50px;
+}
+
+.plan1{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.plan2{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.card{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card1{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.card2{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.card3{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.card-title{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-text{
+  margin: 0px;
+}
+
+.card-body{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.btn.btn-primary{
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 5px;
+  color: black;
+}
+
+.card1>.card-title{
+  background-color: rgb(208, 205, 202);
+}
+
+.card2>.card-title{
+  background-color: rgb(208, 205, 202);
+}
+
+.card3>.card-title{
+  background-color: black;
+  color: beige;
+}
+
+.card2 .btn.btn-primary{
+  background-color: black;
+  color: bisque;
+}
+
+.card3 .btn.btn-primary{
+  background-color: black;
+  color: bisque;
+}
+
+#footer{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+
+.copyright{
+  float: left;
+}
+
+.sec{
+  display: flex;
+  gap: 150px;
+  float: left;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
